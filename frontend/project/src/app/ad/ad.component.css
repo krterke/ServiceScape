@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI';
+}
+/* form{
+    
+} */
+.cnt{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 30%;
+    height: 700;
+    padding:17px 0px 6px 0px;
+}
+input{
+    display: flex;
+}
+input:nth-child(even){
+    margin-bottom: 20px;
+}
+body{
+    display: flex;
+    align-items: center;
+}
+#category{
+    margin-bottom: 20px;
+}
+
+button{
+    margin-top: 20px;
+}
+#status{
+    display: flex;
+    float: right;
+    margin-right: 310px;
+}
+button{
+    color: #fff;
+    background-color: #4343a5;
+    border:none;
+}
