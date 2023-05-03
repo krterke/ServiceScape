@@ -1,3 +1,11 @@
+<!--<div class="head">-->
+<!--  <h1 [routerLink]="'/'">Home</h1>-->
+<!--  <button *ngIf="!is_logged" (click)="login_button()" class="login-button">Login</button>-->
+<!--  <button *ngIf="!is_logged" (click)="register_button()" class = "register-button">Register</button>-->
+<!--  <button *ngIf="is_logged" (click)="profile_button()" class="profile-button">Profile</button>-->
+<!--  <button *ngIf="is_logged" (click)="logout()" class="profile-button">LogOut</button>-->
+<!--  <button *ngIf="is_logged" (click)="create_ad_button()" class="create-ad-button">Create Ad</button>-->
+<!--</div>-->
 
 <div class="head">
   <img [routerLink]="'/'" src="assets/icons/logo.svg" alt="ServiceScape Logo" class="logo">
@@ -14,7 +22,7 @@
   <div class="home">
     <button *ngIf="is_logged" (click)="profile_button()" type="button" class="btn btn-light left" >Profile</button>
     <button *ngIf="is_logged" (click)="create_ad_button()" type="button" class="btn btn-primary right">Create Ad</button>
-    <button *ngIf="is_logged" (click)="logout()" type="button" class="btn btn-light left">LogOut</button>
+
   </div>
-  
+
 </div>

@@ -7,24 +7,29 @@
 .head{
     width: 100%;
     height: 68px;
+    padding-right: 3rem;
 }
 .head > *{
     display: inline;
+ 
 }
 .logo{
     margin-top: 9px;
-    /* margin-left: 136px; */
+    margin-left: 136px;
+}
+button{
+    margin-left: 1rem;
 }
 .btn{
-    justify-content: space-between;
+    text-align: center;
     height:32px;
     width:96px;
     float: right;
     margin-top: 18px;
     
 }
-.btnleft{
-    margin-left: 1140px;
+.btn-light{
+    border: 0.2px solid #cecece
 }
 .btn .right{
     margin: 18px, 120px, 18px,;

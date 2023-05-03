@@ -12,7 +12,7 @@ export class TopBarComponent implements OnInit{
     HomeComponent.is_logged = false;
   }
   login_button(){
-    this.router.navigate(["login"])
+    this.router.navigate(["app"])
   }
   register_button(){
     this.router.navigate(["register"])
@@ -33,8 +33,5 @@ export class TopBarComponent implements OnInit{
   create_ad_button(){
     this.router.navigate(["create_new_ad"])
   }
-  logout() {  
-    localStorage.removeItem('token')
-    HomeComponent.is_logged = false;
-  }
 }
+

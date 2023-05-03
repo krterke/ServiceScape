@@ -4,9 +4,6 @@
     box-sizing: border-box;
     font-family: 'Segoe UI';
 }
-/* form{
-    
-} */
 .cnt{
     display: flex;
     flex-direction: column;

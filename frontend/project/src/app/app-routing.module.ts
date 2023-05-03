@@ -5,7 +5,8 @@ import {CategoryListComponent} from "./category-list/category-list.component";
 import {CategoryProductsComponent} from "./category-products/category-products.component";
 import {ProductListComponent} from "./product-list/product-list.component";
 import {ProductDetailComponent} from "./product-detail/product-detail.component";
-import { AdComponent } from './ad/ad.component';
+import {AdComponent} from "./ad/ad.component";
+import {ProfileComponent} from "./profile/profile.component";
 
 const routes: Routes = [
   { path: '', component: HomeComponent, pathMatch: 'full'},
@@ -14,7 +15,8 @@ const routes: Routes = [
   { path: 'products', component: ProductListComponent},
   { path: 'categories/:id/products/:id/product_detail', component: ProductDetailComponent},
   { path: 'products/:id/product_detail', component: ProductDetailComponent},
-  { path: 'create_new_ad', component: AdComponent}
+  { path: 'create_new_ad', component: AdComponent},
+  { path: 'profile', component: ProfileComponent}
 ];
 
 @NgModule({

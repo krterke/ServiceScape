@@ -13,6 +13,7 @@ import { ProductDetailComponent } from './product-detail/product-detail.componen
 import {FormsModule,  ReactiveFormsModule} from "@angular/forms";
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { AdComponent } from './ad/ad.component';
+import { ProfileComponent } from './profile/profile.component';
 
 @NgModule({
   declarations: [
@@ -24,6 +25,7 @@ import { AdComponent } from './ad/ad.component';
     ProductListComponent,
     ProductDetailComponent,
     AdComponent,
+    ProfileComponent,
   ],
     imports: [
         BrowserModule,

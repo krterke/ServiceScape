@@ -8,6 +8,7 @@ from django.db import IntegrityError
 class CategorySerializer(serializers.Serializer):
     id = serializers.IntegerField(read_only=True)
     name = serializers.CharField()
+    img = serializers.CharField()
 
 
 class ProductSerializer(serializers.ModelSerializer):
