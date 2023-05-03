@@ -1,9 +1,14 @@
-<button (click)="logout()" type="button" class="btn btn-light left">LogOut</button>
-<p>Username: admin</p>
-<p>
-  Your advertisements:
-</p>
-<div class="app_prd">
-  <app-product-list></app-product-list>
-</div>
+<div class="cnt">
+  <div class="topBar">
+    <img [routerLink]="'/'" src="assets/icons/logo.svg" alt="ServiceScape Logo" class="logo">
+    <button (click)="logout()" type="button" class="btn btn-light left">LogOut</button>
+  </div>
+  <h3>Profile</h3>
+  <p class="user"><b>Username:</b> admin</p>
+  <p class="ad">Your advertisements:</p>
+  <div class="app_prd">
+    <app-product-list></app-product-list>
+  </div>
+  
 
+</div>

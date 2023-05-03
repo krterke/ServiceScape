@@ -1,10 +1,12 @@
 <app-top-bar></app-top-bar>
+<div class="cnt">
+  <h4>New advertisement</h4>
 <form [formGroup]="adForm" (submit)="createOwnAd()" >
   <label for="productName">Product Name</label>
-  <input type="text" id="productName" formControlName="productName">
+  <input type="text" id="productName" formControlName="productName"><br>
 
-  <label for="description">Description</label>
-  <textarea id="description" formControlName="description"></textarea><br>
+  <label for="description">Description:</label>
+  <textarea id="description" formControlName="description" placeholder="Some text..."></textarea><br>
 
   <label for="image">Image</label>
   <input type="file" id="image" (change)="onImageSelected($event)" accept="image/*"><br>
@@ -25,5 +27,7 @@
 
   <button type="submit" >Create Ad</button>
 </form>
+</div>
+
 
   

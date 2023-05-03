@@ -14,14 +14,11 @@
     flex-direction: column;
 }
 .cont{
-    /* display: block; */
-    /* margin-bottom: 10px; */
     width: 288px;
     height: 315px;
     background-color: #eaeaea;
     padding:17px 9px 6px 9px;
-    margin-bottom: 30px;
-
+    margin-bottom: 15px;
 }
 a{
     display: flex;

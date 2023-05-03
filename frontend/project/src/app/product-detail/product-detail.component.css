@@ -3,10 +3,9 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Segoe UI';
-    /* font-size: 26px; */
 }
 .rgt{
-    margin: 30px 0px 30px 0px;
+    margin: 1.5rem 8.5rem;
     display: flex;
     justify-content: center;
 }
@@ -18,30 +17,26 @@
 }
 
 img{
-    width:800px;
-    height:630px;
+    width:40rem;
+    height:30rem;
     object-fit: cover;
 }
 .descr{
     display:flex;
     float: right;
-    margin-right: 260px;
+    margin-right:10rem;
 
 }
-/* .block{
-    display: block;
-    width:800px;
-    height:150px;
-    
-} */
 .name{
-    font-size: large;
+    font-size: 2rem;
     margin: 8px 0px 8px 0px;
 }
 .price{
     margin-bottom: 8px;
 }  
 .description{
+    inline-size: 25rem ;
+    overflow-wrap: break-word;
     margin-bottom: 8px;
 }
 .status{
