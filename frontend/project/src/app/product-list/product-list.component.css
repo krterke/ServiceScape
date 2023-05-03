@@ -11,7 +11,9 @@
     gap: 4rem;
 }
 .box:nth-child(4n){
+    display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
 }
 .cont{
     width: 288px;

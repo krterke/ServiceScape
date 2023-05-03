@@ -2,7 +2,6 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Segoe UI';
 }
 .rgt{
     margin: 1.5rem 8.5rem;
@@ -15,7 +14,6 @@
     height: 700;
     padding:17px 0px 6px 0px;
 }
-
 img{
     width:40rem;
     height:30rem;
@@ -24,7 +22,7 @@ img{
 .descr{
     display:flex;
     float: right;
-    margin-right:10rem;
+    margin-right:20rem;
 
 }
 .name{
