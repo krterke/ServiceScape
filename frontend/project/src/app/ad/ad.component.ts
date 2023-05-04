@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import {Category} from "../models/category";
 import {NewAdService} from "../service/new-ad.service";
-import { FormBuilder, FormGroup, Validators } from '@angular/forms';
+import {FormBuilder, FormGroup, Validators } from '@angular/forms';
 import {ActivatedRoute, Router} from "@angular/router";
 import {Product} from "../models/product";
 import axios from 'axios';
